@@ -3,9 +3,9 @@ programa
 	inclua biblioteca Matematica
 	
 	funcao inicio()
-	{	real valor_total=0
+	{
+		real valor_total = 0.0
 		caracter tam_Pizza, queijo, peperoni
-		
 		escreva("Qual o tamanho da pizza?\nP = R$ 15.00\nM = R$ 20.00\nG = R$ 25.00\n")
 		leia(tam_Pizza)
 		
@@ -48,7 +48,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 583; 
+ * @POSICAO-CURSOR = 254; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
