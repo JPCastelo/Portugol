@@ -5,12 +5,18 @@ programa
     funcao inicio()
     {
         real peso, altura, imc
+        caracter opcao = 'C'
+
+        escreva("Deseja realizar o calculo do imc?\n")
+        leia(opcao)
+        
+        enquanto(opcao == 'S' ou opcao == 's'){
         escreva("Informe o seu peso: ")
         leia(peso)
         escreva("Informe a sua altura: ")
         leia(altura)
         
-        altura = Matematica.potencia(altura, 2)
+        altura = Matematica.potencia(altura, 2.0)
         imc = peso/altura
         imc = Matematica.arredondar(imc, 2)
         escreva("IMC: ", imc)
@@ -37,8 +43,10 @@ programa
 	   	
 	   senao
 	   	escreva("\nDiagnóstico: Cuidado, seu IMC está no obesidade classe III.")
-	   	
-        
+
+	   	escreva("\ndeseja realizar novamente? ")
+	   	leia(opcao)
+        }
     }
 }
 
@@ -48,7 +56,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 236; 
+ * @POSICAO-CURSOR = 135; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
