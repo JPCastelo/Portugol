@@ -28,7 +28,7 @@ programa
 		comprimento[n] = Matematica.arredondar(comprimento[n], 2)
 		largura[n] = Matematica.arredondar(largura[n], 2)
 		
-		escreva("Cômodo: ", comodo[n], ", Comprimento: ", comprimento[n], "m, Largura: " ,largura[n], "m, Área: ", area[n], "m²\n")
+		escreva("Cômodo: ", comodo[n], "\t\tComprimento: ", comprimento[n], "m\t\tLargura: " ,largura[n], "m\t\tÁrea: ", area[n], "m²\n")
 		}
 	
 	}
@@ -39,7 +39,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 921; 
+ * @POSICAO-CURSOR = 927; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
