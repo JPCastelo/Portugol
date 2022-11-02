@@ -15,9 +15,9 @@ programa
 		para(inteiro n =0; n < quant_comodos; n++){
 			escreva("Qual é o nome do ", n+1 , "° cômodo? ")
 			leia(comodo[n])
-			escreva("Qual é o comprimento do cômodo? ")
+			escreva("Qual é o comprimento do cômodo em metros? ")
 			leia(comprimento[n])
-			escreva("Qual é a largura do cômodo? ")
+			escreva("Qual é a largura do cômodo em metros? ")
 			leia(largura[n])
 			area[n] = comprimento[n] * largura[n]
 			limpa()
@@ -25,7 +25,10 @@ programa
 
 		para(inteiro n =0; n < quant_comodos; n++){
 		area[n] = Matematica.arredondar(area[n], 2)
-		escreva("Cômodo: ", comodo[n], ", Comprimento: ", comprimento[n], ", Largura: " ,largura[n], ", Área: ", area[n], "\n")
+		comprimento[n] = Matematica.arredondar(comprimento[n], 2)
+		largura[n] = Matematica.arredondar(largura[n], 2)
+		
+		escreva("Cômodo: ", comodo[n], ", Comprimento: ", comprimento[n], "m, Largura: " ,largura[n], "m, Área: ", area[n], "m²\n")
 		}
 	
 	}
@@ -36,7 +39,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 782; 
+ * @POSICAO-CURSOR = 921; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
