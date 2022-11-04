@@ -9,25 +9,20 @@ programa
 			para(inteiro n=0; n<4; n++){
 			
 			se (n==0){
-			escreva("Nome do ",n+1,"° contato: ")
+			escreva("Nome do ",m+1,"° contato: ")
 			leia(contatos[m][n])
 			}
+			
 			se (n==1){
-			escreva("Nome do ",n+1,"° contato: ", contatos[m][n-1])
-			escreva("Email do ",n+1,"° contato: ")
+			escreva("Email do ",m+1,"° contato: ")
 			leia(contatos[m][n])
 			}
 			se (n==2){
-			escreva("Nome do ",n+1,"° contato: ", contatos[m][n-2])
-			escreva("Email do ",n+1,"° contato: ", contatos[m][n-1])
-			escreva("Bairro do ",n+1,"° contato: ")
+			escreva("Bairro do ",m+1,"° contato: ")
 			leia(contatos[m][n])
 			}
 			se (n==3){
-			escreva("Nome do ",n+1,"° contato: ", contatos[m][n-3])
-			escreva("Email do ",n+1,"° contato: ", contatos[m][n-2])
-			escreva("Bairro do ",n+1,"° contato: ", contatos[m][n-1])
-			escreva("Cidade do ",n+1,"° contato: ")
+			escreva("Cidade do ",m+1,"° contato: ")
 			leia(contatos[m][n])
 			limpa()
 			}
@@ -36,12 +31,13 @@ programa
 		}
 	}	
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 532; 
+ * @POSICAO-CURSOR = 296; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {contatos, 6, 9, 8};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
